@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container" >
+        <div class="intro-inter" id="intro-inter">
+            <img class="intro-image" src="/images/download.jpg" alt="">
+            <p class="middle">Put Your Understanding of <span class="nigeria">NIGERIA'S HISTORY</span> to the Test</p>
+            <div class="button-div">
+                <p class="timer"><i class="fa-solid fa-clock"></i>3:00</p>
+                <button class="start-btn" id="start-btn">Start Quiz</button>
+            </div>
+
+        </div>
+        <div class="questions" id="questions">
+            <div class="timer-div">
+                <i class="fa-solid fa-clock"></i>
+                <span id="right-timer">03:00</span>
+            </div>
+
+            <div class="top-bar">
+                <span>Question</span>
+                <span id="current-question">1</span>
+                <span>/</span>
+                <span id="last-question">50</span>
+            </div>
+
+           
+
+            <div class="question-bar">
+                  <h3 class="main-question" id="main-question">What is my Name<span>?</span></h3>
+
+                <div class="answer-btn">
+
+                    <button class="btn" id = "answer-one">john terry</button>
+                    <button class="btn" id = "answer-two">john terry</button>
+                    <button class="btn" id = "answer-three">john terry</button>
+                    <button class="btn" id = "answer-four">john terry</button>
+                </div>
+            </div>
+
+            <div class="nav-btn">
+                <button class="lower-btn" id="previous" >Previous</button>
+                <button class="lower-btn" id="next">Next</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
